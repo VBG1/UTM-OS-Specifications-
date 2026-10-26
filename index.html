@@ -1,0 +1,44 @@
+<html>
+<body>
+<h1>
+    Arch Linux
+</h1>
+<h2>
+System & Hardware
+
+• Virtualization: Virtualize (do not choose Emulate)
+• Architecture: aarch64 (for Apple Silicon) or x86_64 (for Intel Macs)
+• System (Motherboard): QEMU 7.0+ Virtual Machine (virt)
+• Memory: 4096 MB (4 GB) minimum / 8192 MB (8 GB) recommended
+• CPU Cores: 4 (Force multicore enabled)
+
+Storage (Drives)
+
+• Interface: VirtIO (highest performance for Linux guests)
+• Size: 32 GB to 64 GB (Allocated dynamically)
+• Removable (CD/DVD): USB or SATA (only needed for the initial .iso installer)
+
+Network
+
+• Network Mode: Shared Network (NAT) or Bridged (if you need an explicit local IP)
+• Device (Emulated Network Card): virtio-net-pci
+
+Display & Graphics
+
+• Device: virtio-ramfb or virtio-gpu-pci
+• Hardware Acceleration: Enabled (if available on your host/OS version)
+
+Input & Sharing
+
+• USB Support: USB 3.0 (XHCI)
+• Clipboard Sharing: Enabled (requires spice-vdagent installed on the Arch guest later)
+
+
+</h2>
+
+
+
+
+
+</body>
+</html>

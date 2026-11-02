@@ -1,2 +1,2 @@
 # UTM-OS-Specifications-
-This Repo is for UTM and different specs you need for different OSes.
+This Repo is for UTM and different specs you need for different OSes. (This is for UTM, not UTM SE.)
